@@ -1,0 +1,17 @@
+<div id="MENUSIDEindent">
+    <span id="LOGO" class="">
+        <a href="#" [routerLink]="['HomePage']" (click)="toggleMenu($event)" [ngClass]="{'active':mobileMenuActive}">
+        Glucosens
+        </a>
+        <!--<img id="BlueLogo" alt="logo" src="showcase/resources/images/primeng.png" class="hiddenLogo"/> -->
+    </span>
+    <span id="menu_input" #inputmenutitle class="MenuSideMainLink bordersOfMenuSide"  [class.MenuSideMainLinkDark]="menuToggleClass" (click)="menuToggle($event, inputmenutitle.id)">
+        <img src="showcase/resources/images/mono/input.svg" />
+        <img class="hiddenIcons" src="showcase/resources/images/mono/inputBlue.svg" />
+        <span class="MainLinkText">Input</span>
+    </span>
+    <div class="SubMenuLinkContainer" [ngClass]="menuClass">
+        <a class="SubMenuLink" [routerLink]="['AddData']" (click)="go($event)">&#9679; AddData</a>
+    </div>     
+</div>
+

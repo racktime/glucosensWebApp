@@ -1,0 +1,38 @@
+﻿[
+  {
+    "id": "p1",  
+    "component": "PortletTest",
+    "path" :  "./showcase/portlet/portletTest",
+    "menuName": "PortletTest 글이 잘나오냐?"
+  },
+  {
+    "id": "p2",
+    "component": "PortletTest",
+    "path" :  "./showcase/portlet/PortletTest",
+    "menuName": "14555"
+  },
+  {
+      "id": "p3",
+    "component": "PortletTest2",
+    "path" :  "./showcase/portlet/portletTest2",
+    "menuName": "890"
+  },
+  {
+      "id": "p4",
+    "component": "PortletTest2",
+    "path" :  "./showcase/portlet/portletTest2",
+    "menuName": "--"
+  },
+  {
+      "id": "p5",
+    "component": "PortletTest",
+    "path" :  "./showcase/portlet/PortletTest",
+    "menuName": "1234"
+  },
+  {
+      "id": "p6",
+    "component": "PortletTest2",
+    "path" :  "./showcase/portlet/portletTest2",
+    "menuName": "PortletTest2"
+  }
+]
